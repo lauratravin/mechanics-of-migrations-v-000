@@ -4,5 +4,7 @@ class CreateArtists < ActiveRecord::Migration
   def down  #Roll back
   end
   def change
+    create_table :artists do |t|
+    end  
   end
 end
